@@ -23,10 +23,11 @@ struct Story: Identifiable{
 }
 
 let example = Story(title: "Escape House", author: "Bob", description: "While my AF was sleeping, I jumped out off my room's window and met up with my friends")
+let example2 = Story(title: "Chem Lab", author: "Mark", description: "I mixed two random chemicals and nearly blew up the entire school")
 
 let exampleStories = [
     example,
-    Story(title: "Chem Lab", author: "Mark", description: "I mixed two random chemicals and nearly blew up the entire school")
+    example2
 ]
 
 

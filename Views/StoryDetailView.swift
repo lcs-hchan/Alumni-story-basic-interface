@@ -13,6 +13,10 @@ struct StoryDetailView: View {
     
     var body: some View {
         Text(storyToShow.author)
+            .font(.headline)
+            .padding()
+        Text(storyToShow.description)
+        
     }
 }
 
