@@ -11,7 +11,7 @@ import SwiftUI
 struct Alumni_story_basic_interfaceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }

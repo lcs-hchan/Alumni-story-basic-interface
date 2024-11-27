@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BCDCC8812CF7813300B1691A /* Alumni_story_basic_interfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCC8802CF7813300B1691A /* Alumni_story_basic_interfaceApp.swift */; };
+		BCDCC8832CF7813300B1691A /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCC8822CF7813300B1691A /* LandingView.swift */; };
+		BCDCC8922CF7819A00B1691A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCC8912CF7819A00B1691A /* Story.swift */; };
+		BCDCC8942CF78A8300B1691A /* StoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCC8932CF78A8300B1691A /* StoryDetailView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BCDCC87D2CF7813300B1691A /* Alumni story basic interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alumni story basic interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDCC8802CF7813300B1691A /* Alumni_story_basic_interfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumni_story_basic_interfaceApp.swift; sourceTree = "<group>"; };
+		BCDCC8822CF7813300B1691A /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		BCDCC8912CF7819A00B1691A /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		BCDCC8932CF78A8300B1691A /* StoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +43,9 @@
 		BCDCC8742CF7813300B1691A = {
 			isa = PBXGroup;
 			children = (
+				BCDCC8802CF7813300B1691A /* Alumni_story_basic_interfaceApp.swift */,
+				BCDCC88F2CF7815000B1691A /* Views */,
+				BCDCC88E2CF7814600B1691A /* Model */,
 				BCDCC87F2CF7813300B1691A /* Alumni story basic interface */,
 				BCDCC87E2CF7813300B1691A /* Products */,
 			);
@@ -43,6 +57,23 @@
 				BCDCC87D2CF7813300B1691A /* Alumni story basic interface.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDCC88E2CF7814600B1691A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCC8912CF7819A00B1691A /* Story.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCDCC88F2CF7815000B1691A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCC8822CF7813300B1691A /* LandingView.swift */,
+				BCDCC8932CF78A8300B1691A /* StoryDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDCC8832CF7813300B1691A /* LandingView.swift in Sources */,
+				BCDCC8812CF7813300B1691A /* Alumni_story_basic_interfaceApp.swift in Sources */,
+				BCDCC8922CF7819A00B1691A /* Story.swift in Sources */,
+				BCDCC8942CF78A8300B1691A /* StoryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
